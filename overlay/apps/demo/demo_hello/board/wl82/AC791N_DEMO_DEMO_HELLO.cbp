@@ -1,0 +1,1321 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AC791N_DEMO_DEMO_HELLO" />
+		<Option compiler="pi32v2_r3_empty_compiler" />
+		<Build>
+			<Target title="Release">
+				<Option output="../../../../../cpu/wl82/tools/hello.elf" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="pi32v2_r3_empty_compiler" />
+				<Compiler>
+					<Add option="-flto" />
+					<Add option="-w" />
+					<Add option="-g" />
+					<Add option="-Wuninitialized" />
+					<Add option="-Wno-invalid-noreturn" />
+					<Add option="-fno-common" />
+					<Add option="-integrated-as" />
+					<Add option="-Oz" />
+					<Add option="-fallow-pointer-null" />
+					<Add option="-fprefer-gnu-section" />
+					<Add option="-femulated-tls" />
+					<Add option="-Wno-shift-negative-value" />
+					<Add option="-Wframe-larger-than=2560" />
+					<Add option="-mllvm -pi32v2-large-program=true" />
+					<Add option="-fms-extensions" />
+					<Add option="-fno-unwind-tables" />
+					<Add option="-ffunction-sections" />
+					<Add option="-fdata-sections" />
+					<Add option="-fmessage-length=0" />
+					<Add option="-DSUPPORT_MS_EXTENSIONS" />
+					<Add option="-DCONFIG_RELEASE_ENABLE" />
+					<Add option="-DCONFIG_CPU_WL82" />
+					<Add option="-DCONFIG_FREE_RTOS_ENABLE" />
+					<Add option="-DCONFIG_THREAD_ENABLE" />
+					<Add option="-DCONFIG_AUDIO_ONCHIP" />
+					<Add option="-DHELLO_FIRMWARE_OUTPUT" />
+					<Add option="-D__GCC_PI32V2__" />
+					<Add option="-DCONFIG_NEW_ECC_ENABLE" />
+					<Add option="-DCONFIG_EQ_SUPPORT_ASYNC" />
+					<Add option="-DEQ_CORE_V1" />
+					<Add option="-DCONFIG_SFC_ENABLE" />
+					<Add option="-DCONFIG_AUDIO_ENABLE" />
+					<Add option="-DEVENT_HANDLER_NUM_CONFIG=2" />
+					<Add option="-DEVENT_TOUCH_ENABLE_CONFIG=0" />
+					<Add option="-DEVENT_POOL_SIZE_CONFIG=256" />
+					<Add option="-DCONFIG_EVENT_KEY_MAP_ENABLE=0" />
+					<Add option="-DTIMER_POOL_NUM_CONFIG=15" />
+					<Add option="-DAPP_ASYNC_POOL_NUM_CONFIG=0" />
+					<Add option="-DVFS_ENABLE=1" />
+					<Add option="-DUSE_SDFILE_NEW=1" />
+					<Add option="-DCONFIG_SD_ENABLE=1" />
+					<Add option="-DSDFILE_STORAGE=1" />
+					<Add option="-DCONFIG_UI_ENABLE=1" />
+					<Add option="-DTCFG_LCD_ILI9488_ENABLE=1" />
+					<Add option="-DCONFIG_UI_FILE_SAVE_IN_RESERVED_EXPAND_ZONE=1" />
+					<Add option="-DCONFIG_UI_PACKRES_ADR=0x00400000" />
+					<Add option="-DCONFIG_UI_PACKRES_LEN=0x003F0000" />
+					<Add option="-DCONFIG_JLFAT_ENABLE" />
+					<Add option="-DVFS_FILE_POOL_NUM_CONFIG=8" />
+					<Add option="-DVM_MAX_PAGE_ALIGN_SIZE_CONFIG=64*1024" />
+					<Add option="-DVM_MAX_SECTOR_ALIGN_SIZE_CONFIG=64*1024" />
+					<Add option="-DVM_ITEM_MAX_NUM=256" />
+					<Add option="-DCONFIG_UPDATA_ENABLE" />
+					<Add option="-DCONFIG_OTA_UPDATA_ENABLE" />
+					<Add option="-DCONFIG_ITEM_FORMAT_VM" />
+					<Add option="-D_XOPEN_SOURCE=700" />
+					<Add option="-D_GNU_SOURCE" />
+					<Add option="-D__ELF__" />
+					<Add directory="../../../../../include_lib/c++" />
+					<Add directory="../../../../../include_lib/c++/include" />
+					<Add directory="../../../../../include_lib/newlib/include" />
+					<Add directory="../../../../../include_lib/c++/simple_pthread" />
+					<Add directory="../../../../../include_lib" />
+					<Add directory="../../../../../include_lib/driver" />
+					<Add directory="../../../../../include_lib/driver/device" />
+					<Add directory="../../../../../include_lib/driver/cpu/wl82" />
+					<Add directory="../../../../../include_lib/system" />
+					<Add directory="../../../../../include_lib/system/generic" />
+					<Add directory="../../../../../include_lib/btctrler" />
+					<Add directory="../../../../../include_lib/btctrler/port/wl82" />
+					<Add directory="../../../../../include_lib/update" />
+					<Add directory="../../../../../include_lib/btstack/third_party/common" />
+					<Add directory="../../../../../include_lib/btstack/third_party/rcsp" />
+					<Add directory="../../../../../include_lib/utils" />
+					<Add directory="../../../../../include_lib/utils/syscfg" />
+					<Add directory="../../../../../include_lib/utils/event" />
+					<Add directory="../../../../../include_lib/media" />
+					<Add directory="../../../../../include_lib/media/cpu/wl82" />
+					<Add directory="../../../../../apps" />
+					<Add directory="../../../../../apps/demo/demo_hello/include" />
+					<Add directory="../../../../../include_lib/system/os" />
+					<Add directory="../../../../../apps/common" />
+					<Add directory="../../../../../apps/common/include" />
+					<Add directory="../../../../../apps/common/config/include" />
+					<Add directory="../../../../../apps/common/system" />
+					<Add directory="../../../../../apps/common/usb/host" />
+					<Add directory="../../../../../apps/common/ble/include" />
+					<Add directory="../../../../../apps/common/jl_math" />
+					<Add directory="../../../../../apps/common/example/system/server" />
+					<Add directory="../../../../../include_lib/server" />
+					<Add directory="../../../../../include_lib/driver/device/usb" />
+					<Add directory="../../../../../include_lib/driver/device/usb/host" />
+					<Add directory="../../../../../include_lib/driver/device/video" />
+					<Add directory="../../../../../include_lib/utils/qrcode" />
+					<Add directory="../../../../../include_lib/utils/ui" />
+					<Add directory="../../../../../include_lib/btstack" />
+					<Add directory="../../../../../include_lib/net" />
+					<Add directory="../../../../../include_lib/net/server" />
+					<Add directory="../../../../../include_lib/net/mbedtls_3_4_0" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/src/include" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/src/include/lwip" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/port" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/app" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/app/ctp" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/app/cdp" />
+					<Add directory="../../../../../apps/common/net" />
+					<Add directory="../../../../../apps/common/net/testbox/include" />
+					<Add directory="../../../../../apps/common/ui/include" />
+					<Add directory="../../../../../apps/common/gsensor" />
+					<Add directory="../../../../../apps/common/usb" />
+					<Add directory="../../../../../apps/common/usb/device" />
+					<Add directory="../../../../../apps/common/usb/include/host" />
+					<Add directory="../../../../../apps/common/usb/include" />
+					<Add directory="../../../../../include_lib/driver/device/usb/device" />
+					<Add directory="../../../demo_hello" />
+					<Add directory="../../../../../include_lib/net/cJSON_common" />
+					<Add directory="../../../../../apps/common/LLM/ifly_aiui/include" />
+					<Add directory="../../../../../include_lib/net/curl/include" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/src/include/compat/posix" />
+					<Add directory="../../../../../include_lib/net/libwebsockets/include" />
+					<Add directory="../../../../../include_lib/net/libwebsockets/include/libwebsockets" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/src" />
+					<Add directory="../../../../../apps/common/LLM/onesdk" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/src/aigw" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/src/util" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/src/aws" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/include" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/include/iot" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/include/protocols" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/include/thing_model" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/include/platform/plat" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/platform" />
+					<Add directory="../../../../../apps/common/LLM/audio" />
+				</Compiler>
+				<Linker>
+					<Add option="-flto" />
+					<Add option="--plugin-opt=-pi32v2-always-use-itblock=false" />
+					<Add option="--plugin-opt=-enable-ipra=true" />
+					<Add option="--plugin-opt=-pi32v2-merge-max-offset=4096" />
+					<Add option="--plugin-opt=-pi32v2-enable-simd=true" />
+					<Add option="--plugin-opt=mcpu=r3" />
+					<Add option="--plugin-opt=-global-merge-on-const" />
+					<Add option="--plugin-opt=-inline-threshold=5" />
+					<Add option="--plugin-opt=-inline-max-allocated-size=32" />
+					<Add option="--plugin-opt=-inline-normal-into-special-section=true" />
+					<Add option="--plugin-opt=-dont-used-symbol-list=malloc,free,sprintf,printf,puts,putchar" />
+					<Add option="--plugin-opt=save-temps" />
+					<Add option="--plugin-opt=-pi32v2-enable-rep-memop" />
+					<Add option="--plugin-opt=-emulated-tls" />
+					<Add option="--sort-common" />
+					<Add option="--plugin-opt=-used-symbol-file=../../../../../cpu/wl82/sdk_used_list.used" />
+					<Add option="--plugin-opt=-enable-movable-region=true" />
+					<Add option="--plugin-opt=-movable-region-section-prefix=.movable.slot." />
+					<Add option="--plugin-opt=-movable-region-stub-section-prefix=.movable.stub." />
+					<Add option="--plugin-opt=-movable-region-prefix=.movable.region." />
+					<Add option="--plugin-opt=-movable-region-stub-prefix=__movable_stub_" />
+					<Add option="--plugin-opt=-movable-region-stub-swi-number=-2" />
+					<Add option="--plugin-opt=-movable-region-map-file-list=../../../../../apps/common/movable/funcname.txt" />
+					<Add option="--plugin-opt=-movable-region-section-map-file-list=../../../../../apps/common/movable/section.txt" />
+					<Add option="--plugin-opt=-movable-region-exclude-func-file-list=../../../../../apps/common/movable/exclude.txt" />
+					<Add option="--plugin-opt=-pi32v2-large-program=true" />
+					<Add option="--start-group" />
+					<Add option="../../../../../include_lib/newlib/pi32v2-lib/libm.a" />
+					<Add option="../../../../../include_lib/newlib/pi32v2-lib/libc.a" />
+					<Add option="../../../../../include_lib/newlib/pi32v2-lib/libcompiler_rt.a" />
+					<Add option="../../../../../cpu/wl82/liba/fs.a" />
+					<Add option="../../../../../cpu/wl82/liba/event.a" />
+					<Add option="../../../../../cpu/wl82/liba/system.a" />
+					<Add option="../../../../../cpu/wl82/liba/cfg_tool.a" />
+					<Add option="../../../../../cpu/wl82/liba/cpu.a" />
+					<Add option="../../../../../cpu/wl82/liba/common_lib.a" />
+					<Add option="../../../../../cpu/wl82/liba/libaec.a" />
+					<Add option="../../../../../cpu/wl82/liba/wl_rf_common.a" />
+					<Add option="../../../../../cpu/wl82/liba/btctrler.a" />
+					<Add option="../../../../../cpu/wl82/liba/btstack.a" />
+					<Add option="../../../../../cpu/wl82/liba/crypto_toolbox_Osize.a" />
+					<Add option="../../../../../cpu/wl82/liba/audio_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_m4a_dec_seek.a" />
+					<Add option="../../../../../cpu/wl82/liba/video_rec_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/echo_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/libspeex.a" />
+					<Add option="../../../../../cpu/wl82/liba/libvad.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_aac_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_m4a_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_mp3_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_mp3_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_opus_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_opus_stenc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_opus_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_wma_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_ape_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_flac_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_wav_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_dts_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_amr_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_amr_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_amrwb_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_adpcm_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/jla_codec_lib.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_pitchshifter.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_rmono2stereo.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_reverb_cal.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_howling.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_pitch_speed.a" />
+					<Add option="../../../../../cpu/wl82/liba/liblimiter.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_dvad.a" />
+					<Add option="../../../../../cpu/wl82/liba/libdns.a" />
+					<Add option="../../../../../cpu/wl82/liba/libjlsp.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_usb_syn.a" />
+					<Add option="../../../../../cpu/wl82/liba/libaisp_single.a" />
+					<Add option="../../../../../cpu/wl82/liba/libauth_aisp.a" />
+					<Add option="../../../../../cpu/wl82/liba/libauth.a" />
+					<Add option="../../../../../cpu/wl82/liba/aisIntlib_single_xiaoai.a" />
+					<Add option="../../../../../cpu/wl82/liba/cJSON.a" />
+					<Add option="../../../../../cpu/wl82/liba/libcurl.a" />
+					<Add option="../../../../../cpu/wl82/liba/update.a" />
+					<Add option="../../../../../cpu/wl82/liba/video_dec_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/enc_qr_code.a" />
+					<Add option="../../../../../cpu/wl82/liba/libjlsp_facedet_simd.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_esco_repair.a" />
+					<Add option="../../../../../cpu/wl82/liba/net_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/libcompressor.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_crossover_coff.a" />
+					<Add option="../../../../../cpu/wl82/liba/media_app.a" />
+					<Add option="../../../../../cpu/wl82/liba/libdrc.a" />
+					<Add option="../../../../../cpu/wl82/liba/hsm.a" />
+					<Add option="../../../../../cpu/wl82/liba/wpasupplicant.a" />
+					<Add option="../../../../../cpu/wl82/liba/http_cli.a" />
+					<Add option="../../../../../cpu/wl82/liba/https_cli.a" />
+					<Add option="../../../../../cpu/wl82/liba/http_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/ftpserver.a" />
+					<Add option="../../../../../cpu/wl82/liba/websocket.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_mqtt.a" />
+					<Add option="../../../../../cpu/wl82/liba/libcoap.a" />
+					<Add option="../../../../../cpu/wl82/liba/json.a" />
+					<Add option="../../../../../cpu/wl82/liba/iperf.a" />
+					<Add option="../../../../../cpu/wl82/liba/kcp.a" />
+					<Add option="../../../../../cpu/wl82/liba/profile.a" />
+					<Add option="../../../../../cpu/wl82/liba/libmbedtls_3_4_0.a" />
+					<Add option="../../../../../cpu/wl82/liba/network_download.a" />
+					<Add option="../../../../../cpu/wl82/liba/libmpeg.a" />
+					<Add option="../../../../../cpu/wl82/liba/libdlna.a" />
+					<Add option="../../../../../cpu/wl82/liba/ai_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/lwip_2_2_0.a" />
+					<Add option="../../../../../cpu/wl82/liba/wl_wifi.a" />
+					<Add option="../../../../../cpu/wl82/liba/libwebsockets.a" />
+					<Add option="--end-group" />
+					<Add option="../../../../../include_lib/c++/libstdc++/libemutls.a" />
+					<Add option="../../../../../include_lib/c++/libstdc++/libc++.a" />
+					<Add option="../../../../../include_lib/c++/libstdc++/libc++abi.a" />
+					<Add option="../../../../../cpu/wl82/liba/ui.a" />
+					<Add option="../../../../../cpu/wl82/liba/res.a" />
+					<Add option="../../../../../cpu/wl82/liba/font.a" />
+					<Add option="../../../../../cpu/wl82/liba/ui_draw.a" />
+					<Add option="-T../../../../../cpu/wl82/sdk.ld" />
+					<Add option="-M=../../../../../cpu/wl82/tools/sdk.map" />
+				</Linker>
+				<ExtraCommands>
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\cpu\wl82\sdk_used_list.c -o ..\..\..\..\..\cpu\wl82\sdk_used_list.used" />
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\apps\common\movable\section.c -o ..\..\..\..\..\apps\common\movable\section.txt" />
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\cpu\wl82\sdk_ld.c -o ..\..\..\..\..\cpu\wl82\sdk.ld" />
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\cpu\wl82\tools\download.c -o ..\..\..\..\..\cpu\wl82\tools\download.bat" />
+					<Add before="..\..\..\..\..\tools\utils\fixbat.exe ..\..\..\..\..\cpu\wl82\tools\download.bat" />
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\cpu\wl82\tools\isd_config_rule.c -o ..\..\..\..\..\cpu\wl82\tools\isd_config.ini" />
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\cpu\wl82\tools\isd_config_rule_loader.c -o ..\..\..\..\..\cpu\wl82\tools\isd_config_loader.ini" />
+					<Add after="..\..\..\..\..\cpu\wl82\tools\download.bat sdk" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="debug">
+				<Option output="../../../../../cpu/wl82/tools/hello.elf" prefix_auto="0" extension_auto="0" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="pi32v2_r3_empty_compiler" />
+				<Compiler>
+					<Add option="-flto" />
+					<Add option="-w" />
+					<Add option="-g" />
+					<Add option="-Wuninitialized" />
+					<Add option="-Wno-invalid-noreturn" />
+					<Add option="-fno-common" />
+					<Add option="-integrated-as" />
+					<Add option="-Oz" />
+					<Add option="-fallow-pointer-null" />
+					<Add option="-fprefer-gnu-section" />
+					<Add option="-femulated-tls" />
+					<Add option="-Wno-shift-negative-value" />
+					<Add option="-Wframe-larger-than=2560" />
+					<Add option="-mllvm -pi32v2-large-program=true" />
+					<Add option="-fms-extensions" />
+					<Add option="-fno-unwind-tables" />
+					<Add option="-ffunction-sections" />
+					<Add option="-fdata-sections" />
+					<Add option="-fmessage-length=0" />
+					<Add option="-DSUPPORT_MS_EXTENSIONS" />
+					<Add option="-DCONFIG_RELEASE_ENABLE" />
+					<Add option="-DCONFIG_CPU_WL82" />
+					<Add option="-DCONFIG_FREE_RTOS_ENABLE" />
+					<Add option="-DCONFIG_THREAD_ENABLE" />
+					<Add option="-DCONFIG_AUDIO_ONCHIP" />
+					<Add option="-DHELLO_FIRMWARE_OUTPUT" />
+					<Add option="-D__GCC_PI32V2__" />
+					<Add option="-DCONFIG_NEW_ECC_ENABLE" />
+					<Add option="-DCONFIG_EQ_SUPPORT_ASYNC" />
+					<Add option="-DEQ_CORE_V1" />
+					<Add option="-DCONFIG_SFC_ENABLE" />
+					<Add option="-DCONFIG_AUDIO_ENABLE" />
+					<Add option="-DEVENT_HANDLER_NUM_CONFIG=2" />
+					<Add option="-DEVENT_TOUCH_ENABLE_CONFIG=0" />
+					<Add option="-DEVENT_POOL_SIZE_CONFIG=256" />
+					<Add option="-DCONFIG_EVENT_KEY_MAP_ENABLE=0" />
+					<Add option="-DTIMER_POOL_NUM_CONFIG=15" />
+					<Add option="-DAPP_ASYNC_POOL_NUM_CONFIG=0" />
+					<Add option="-DVFS_ENABLE=1" />
+					<Add option="-DUSE_SDFILE_NEW=1" />
+					<Add option="-DCONFIG_SD_ENABLE=1" />
+					<Add option="-DSDFILE_STORAGE=1" />
+					<Add option="-DCONFIG_UI_ENABLE=1" />
+					<Add option="-DTCFG_LCD_ILI9488_ENABLE=1" />
+					<Add option="-DCONFIG_UI_FILE_SAVE_IN_RESERVED_EXPAND_ZONE=1" />
+					<Add option="-DCONFIG_UI_PACKRES_ADR=0x00400000" />
+					<Add option="-DCONFIG_UI_PACKRES_LEN=0x003F0000" />
+					<Add option="-DCONFIG_JLFAT_ENABLE" />
+					<Add option="-DVFS_FILE_POOL_NUM_CONFIG=8" />
+					<Add option="-DVM_MAX_PAGE_ALIGN_SIZE_CONFIG=64*1024" />
+					<Add option="-DVM_MAX_SECTOR_ALIGN_SIZE_CONFIG=64*1024" />
+					<Add option="-DVM_ITEM_MAX_NUM=256" />
+					<Add option="-DCONFIG_UPDATA_ENABLE" />
+					<Add option="-DCONFIG_OTA_UPDATA_ENABLE" />
+					<Add option="-DCONFIG_ITEM_FORMAT_VM" />
+					<Add option="-D_XOPEN_SOURCE=700" />
+					<Add option="-D_GNU_SOURCE" />
+					<Add option="-D__ELF__" />
+					<Add option="-DDEBUG_PROJECT" />
+					<Add directory="../../../../../include_lib/c++" />
+					<Add directory="../../../../../include_lib/c++/include" />
+					<Add directory="../../../../../include_lib/newlib/include" />
+					<Add directory="../../../../../include_lib/c++/simple_pthread" />
+					<Add directory="../../../../../include_lib" />
+					<Add directory="../../../../../include_lib/driver" />
+					<Add directory="../../../../../include_lib/driver/device" />
+					<Add directory="../../../../../include_lib/driver/cpu/wl82" />
+					<Add directory="../../../../../include_lib/system" />
+					<Add directory="../../../../../include_lib/system/generic" />
+					<Add directory="../../../../../include_lib/btctrler" />
+					<Add directory="../../../../../include_lib/btctrler/port/wl82" />
+					<Add directory="../../../../../include_lib/update" />
+					<Add directory="../../../../../include_lib/btstack/third_party/common" />
+					<Add directory="../../../../../include_lib/btstack/third_party/rcsp" />
+					<Add directory="../../../../../include_lib/utils" />
+					<Add directory="../../../../../include_lib/utils/syscfg" />
+					<Add directory="../../../../../include_lib/utils/event" />
+					<Add directory="../../../../../include_lib/media" />
+					<Add directory="../../../../../include_lib/media/cpu/wl82" />
+					<Add directory="../../../../../apps" />
+					<Add directory="../../../../../apps/demo/demo_hello/include" />
+					<Add directory="../../../../../include_lib/system/os" />
+					<Add directory="../../../../../apps/common" />
+					<Add directory="../../../../../apps/common/include" />
+					<Add directory="../../../../../apps/common/config/include" />
+					<Add directory="../../../../../apps/common/system" />
+					<Add directory="../../../../../apps/common/usb/host" />
+					<Add directory="../../../../../apps/common/ble/include" />
+					<Add directory="../../../../../apps/common/jl_math" />
+					<Add directory="../../../../../apps/common/example/system/server" />
+					<Add directory="../../../../../include_lib/server" />
+					<Add directory="../../../../../include_lib/driver/device/usb" />
+					<Add directory="../../../../../include_lib/driver/device/usb/host" />
+					<Add directory="../../../../../include_lib/driver/device/video" />
+					<Add directory="../../../../../include_lib/utils/qrcode" />
+					<Add directory="../../../../../include_lib/utils/ui" />
+					<Add directory="../../../../../include_lib/btstack" />
+					<Add directory="../../../../../include_lib/net" />
+					<Add directory="../../../../../include_lib/net/server" />
+					<Add directory="../../../../../include_lib/net/mbedtls_3_4_0" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/src/include" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/src/include/lwip" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/port" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/app" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/app/ctp" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/app/cdp" />
+					<Add directory="../../../../../apps/common/net" />
+					<Add directory="../../../../../apps/common/net/testbox/include" />
+					<Add directory="../../../../../apps/common/ui/include" />
+					<Add directory="../../../../../apps/common/gsensor" />
+					<Add directory="../../../../../apps/common/usb" />
+					<Add directory="../../../../../apps/common/usb/device" />
+					<Add directory="../../../../../apps/common/usb/include/host" />
+					<Add directory="../../../../../apps/common/usb/include" />
+					<Add directory="../../../../../include_lib/driver/device/usb/device" />
+					<Add directory="../../../demo_hello" />
+					<Add directory="../../../../../include_lib/net/cJSON_common" />
+					<Add directory="../../../../../apps/common/LLM/ifly_aiui/include" />
+					<Add directory="../../../../../include_lib/net/curl/include" />
+					<Add directory="../../../../../include_lib/net/lwip_2_2_0/lwip/src/include/compat/posix" />
+					<Add directory="../../../../../include_lib/net/libwebsockets/include" />
+					<Add directory="../../../../../include_lib/net/libwebsockets/include/libwebsockets" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/src" />
+					<Add directory="../../../../../apps/common/LLM/onesdk" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/src/aigw" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/src/util" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/src/aws" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/include" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/include/iot" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/include/protocols" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/include/thing_model" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/include/platform/plat" />
+					<Add directory="../../../../../apps/common/LLM/onesdk/platform" />
+					<Add directory="../../../../../apps/common/LLM/audio" />
+				</Compiler>
+				<Linker>
+					<Add option="-flto" />
+					<Add option="--plugin-opt=-pi32v2-always-use-itblock=false" />
+					<Add option="--plugin-opt=-enable-ipra=true" />
+					<Add option="--plugin-opt=-pi32v2-merge-max-offset=4096" />
+					<Add option="--plugin-opt=-pi32v2-enable-simd=true" />
+					<Add option="--plugin-opt=mcpu=r3" />
+					<Add option="--plugin-opt=-global-merge-on-const" />
+					<Add option="--plugin-opt=-inline-threshold=5" />
+					<Add option="--plugin-opt=-inline-max-allocated-size=32" />
+					<Add option="--plugin-opt=-inline-normal-into-special-section=true" />
+					<Add option="--plugin-opt=-dont-used-symbol-list=malloc,free,sprintf,printf,puts,putchar" />
+					<Add option="--plugin-opt=save-temps" />
+					<Add option="--plugin-opt=-pi32v2-enable-rep-memop" />
+					<Add option="--plugin-opt=-emulated-tls" />
+					<Add option="--sort-common" />
+					<Add option="--plugin-opt=-used-symbol-file=../../../../../cpu/wl82/sdk_used_list.used" />
+					<Add option="--plugin-opt=-enable-movable-region=true" />
+					<Add option="--plugin-opt=-movable-region-section-prefix=.movable.slot." />
+					<Add option="--plugin-opt=-movable-region-stub-section-prefix=.movable.stub." />
+					<Add option="--plugin-opt=-movable-region-prefix=.movable.region." />
+					<Add option="--plugin-opt=-movable-region-stub-prefix=__movable_stub_" />
+					<Add option="--plugin-opt=-movable-region-stub-swi-number=-2" />
+					<Add option="--plugin-opt=-movable-region-map-file-list=../../../../../apps/common/movable/funcname.txt" />
+					<Add option="--plugin-opt=-movable-region-section-map-file-list=../../../../../apps/common/movable/section.txt" />
+					<Add option="--plugin-opt=-movable-region-exclude-func-file-list=../../../../../apps/common/movable/exclude.txt" />
+					<Add option="--plugin-opt=-pi32v2-large-program=true" />
+					<Add option="--start-group" />
+					<Add option="../../../../../include_lib/newlib/pi32v2-lib/libm.a" />
+					<Add option="../../../../../include_lib/newlib/pi32v2-lib/libc.a" />
+					<Add option="../../../../../include_lib/newlib/pi32v2-lib/libcompiler_rt.a" />
+					<Add option="../../../../../cpu/wl82/liba/fs.a" />
+					<Add option="../../../../../cpu/wl82/liba/event.a" />
+					<Add option="../../../../../cpu/wl82/liba/system.a" />
+					<Add option="../../../../../cpu/wl82/liba/cfg_tool.a" />
+					<Add option="../../../../../cpu/wl82/liba/cpu.a" />
+					<Add option="../../../../../cpu/wl82/liba/common_lib.a" />
+					<Add option="../../../../../cpu/wl82/liba/libaec.a" />
+					<Add option="../../../../../cpu/wl82/liba/wl_rf_common.a" />
+					<Add option="../../../../../cpu/wl82/liba/btctrler.a" />
+					<Add option="../../../../../cpu/wl82/liba/btstack.a" />
+					<Add option="../../../../../cpu/wl82/liba/crypto_toolbox_Osize.a" />
+					<Add option="../../../../../cpu/wl82/liba/audio_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_m4a_dec_seek.a" />
+					<Add option="../../../../../cpu/wl82/liba/video_rec_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/echo_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/libspeex.a" />
+					<Add option="../../../../../cpu/wl82/liba/libvad.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_aac_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_m4a_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_mp3_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_mp3_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_opus_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_opus_stenc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_opus_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_wma_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_ape_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_flac_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_wav_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_dts_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_amr_dec.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_amr_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_amrwb_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_adpcm_enc.a" />
+					<Add option="../../../../../cpu/wl82/liba/jla_codec_lib.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_pitchshifter.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_rmono2stereo.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_reverb_cal.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_howling.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_pitch_speed.a" />
+					<Add option="../../../../../cpu/wl82/liba/liblimiter.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_dvad.a" />
+					<Add option="../../../../../cpu/wl82/liba/libdns.a" />
+					<Add option="../../../../../cpu/wl82/liba/libjlsp.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_usb_syn.a" />
+					<Add option="../../../../../cpu/wl82/liba/libaisp_single.a" />
+					<Add option="../../../../../cpu/wl82/liba/libauth_aisp.a" />
+					<Add option="../../../../../cpu/wl82/liba/libauth.a" />
+					<Add option="../../../../../cpu/wl82/liba/aisIntlib_single_xiaoai.a" />
+					<Add option="../../../../../cpu/wl82/liba/cJSON.a" />
+					<Add option="../../../../../cpu/wl82/liba/libcurl.a" />
+					<Add option="../../../../../cpu/wl82/liba/update.a" />
+					<Add option="../../../../../cpu/wl82/liba/video_dec_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/enc_qr_code.a" />
+					<Add option="../../../../../cpu/wl82/liba/libjlsp_facedet_simd.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_esco_repair.a" />
+					<Add option="../../../../../cpu/wl82/liba/net_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/libcompressor.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_crossover_coff.a" />
+					<Add option="../../../../../cpu/wl82/liba/media_app.a" />
+					<Add option="../../../../../cpu/wl82/liba/libdrc.a" />
+					<Add option="../../../../../cpu/wl82/liba/hsm.a" />
+					<Add option="../../../../../cpu/wl82/liba/wpasupplicant.a" />
+					<Add option="../../../../../cpu/wl82/liba/http_cli.a" />
+					<Add option="../../../../../cpu/wl82/liba/https_cli.a" />
+					<Add option="../../../../../cpu/wl82/liba/http_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/ftpserver.a" />
+					<Add option="../../../../../cpu/wl82/liba/websocket.a" />
+					<Add option="../../../../../cpu/wl82/liba/lib_mqtt.a" />
+					<Add option="../../../../../cpu/wl82/liba/libcoap.a" />
+					<Add option="../../../../../cpu/wl82/liba/json.a" />
+					<Add option="../../../../../cpu/wl82/liba/iperf.a" />
+					<Add option="../../../../../cpu/wl82/liba/kcp.a" />
+					<Add option="../../../../../cpu/wl82/liba/profile.a" />
+					<Add option="../../../../../cpu/wl82/liba/libmbedtls_3_4_0.a" />
+					<Add option="../../../../../cpu/wl82/liba/network_download.a" />
+					<Add option="../../../../../cpu/wl82/liba/libmpeg.a" />
+					<Add option="../../../../../cpu/wl82/liba/libdlna.a" />
+					<Add option="../../../../../cpu/wl82/liba/ai_server.a" />
+					<Add option="../../../../../cpu/wl82/liba/lwip_2_2_0.a" />
+					<Add option="../../../../../cpu/wl82/liba/wl_wifi.a" />
+					<Add option="../../../../../cpu/wl82/liba/libwebsockets.a" />
+					<Add option="--end-group" />
+					<Add option="../../../../../include_lib/c++/libstdc++/libemutls.a" />
+					<Add option="../../../../../include_lib/c++/libstdc++/libc++.a" />
+					<Add option="../../../../../include_lib/c++/libstdc++/libc++abi.a" />
+					<Add option="../../../../../cpu/wl82/liba/ui.a" />
+					<Add option="../../../../../cpu/wl82/liba/res.a" />
+					<Add option="../../../../../cpu/wl82/liba/font.a" />
+					<Add option="../../../../../cpu/wl82/liba/ui_draw.a" />
+					<Add option="-T../../../../../cpu/wl82/sdk.ld" />
+					<Add option="-M=../../../../../cpu/wl82/tools/sdk.map" />
+				</Linker>
+				<ExtraCommands>
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\cpu\wl82\sdk_used_list.c -o ..\..\..\..\..\cpu\wl82\sdk_used_list.used" />
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\apps\common\movable\section.c -o ..\..\..\..\..\apps\common\movable\section.txt" />
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\cpu\wl82\sdk_ld.c -o ..\..\..\..\..\cpu\wl82\sdk.ld" />
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\cpu\wl82\tools\download.c -o ..\..\..\..\..\cpu\wl82\tools\download.bat" />
+					<Add before="..\..\..\..\..\tools\utils\fixbat.exe ..\..\..\..\..\cpu\wl82\tools\download.bat" />
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\cpu\wl82\tools\isd_config_rule.c -o ..\..\..\..\..\cpu\wl82\tools\isd_config.ini" />
+					<Add before="$compiler $options $includes -D__LD__ -E -P ..\..\..\..\..\cpu\wl82\tools\isd_config_rule_loader.c -o ..\..\..\..\..\cpu\wl82\tools\isd_config_loader.ini" />
+					<Add after="..\..\..\..\..\cpu\wl82\tools\download.bat sdk" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="../../../../../cpu/wl82/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../cpu/wl82/iic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../cpu/wl82/key/adc_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../cpu/wl82/key/ctmu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../cpu/wl82/key/irflt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../cpu/wl82/key/plcnt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../cpu/wl82/key/rdec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../cpu/wl82/port_waked_up.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../cpu/wl82/setup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../../include_lib/btctrler/ble/hci_ll.h" />
+		<Unit filename="../../../../../include_lib/btctrler/btcontroller_mode.h" />
+		<Unit filename="../../../../../include_lib/btctrler/btcontroller_modules.h" />
+		<Unit filename="../../../../../include_lib/btctrler/classic/hci_lmp.h" />
+		<Unit filename="../../../../../include_lib/btctrler/hci_transport.h" />
+		<Unit filename="../../../../../include_lib/btctrler/version.z.S" />
+		<Unit filename="../../../../../include_lib/btstack/avctp_user.h" />
+		<Unit filename="../../../../../include_lib/btstack/btstack_typedef.h" />
+		<Unit filename="../../../../../include_lib/btstack/version.z.S" />
+		<Unit filename="../../../../../include_lib/c++/include/stddef.h" />
+		<Unit filename="../../../../../include_lib/c++/include/stdint.h" />
+		<Unit filename="../../../../../include_lib/c++/include/stdlib.h" />
+		<Unit filename="../../../../../include_lib/c++/include/string.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/WL82.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/adc_api.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/audio.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/bus_device.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/cache.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/clock.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/cpu.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/crc16.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/csfr.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/ctmu.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/dac.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/debug.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/device_drive.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/dma.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/efuse.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/emi.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/gpio.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/hwi.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/iic.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/iis.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/image_enc.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/imb_driver.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/imc.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/imd.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/imr.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/includes.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/irq.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/isc.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/isp_alg.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/isp_dev.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/jpeg_abr.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/jpeg_codec.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/jpeg_decoder.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/jpeg_encoder.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/ladc.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/lock.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/p33.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/pap.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/plcnt.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/plnk.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/port_waked_up.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/power_interface.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/pwm.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/pwm_led.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/rdec.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/rtc.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/sdmmc.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/sfc_norflash_api.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/spdif.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/spi.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/spiflash.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/src.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/startup.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/system_reset_reason.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/uart.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/uvc_device.h" />
+		<Unit filename="../../../../../include_lib/driver/cpu/wl82/asm/wdt.h" />
+		<Unit filename="../../../../../include_lib/driver/device/device.h" />
+		<Unit filename="../../../../../include_lib/driver/device/gpio.h" />
+		<Unit filename="../../../../../include_lib/driver/device/iic.h" />
+		<Unit filename="../../../../../include_lib/driver/device/includes.h" />
+		<Unit filename="../../../../../include_lib/driver/device/ioctl_cmds.h" />
+		<Unit filename="../../../../../include_lib/driver/device/key/adkey.h" />
+		<Unit filename="../../../../../include_lib/driver/device/key/ctmu_key.h" />
+		<Unit filename="../../../../../include_lib/driver/device/key/iokey.h" />
+		<Unit filename="../../../../../include_lib/driver/device/key/irkey.h" />
+		<Unit filename="../../../../../include_lib/driver/device/key/key_driver.h" />
+		<Unit filename="../../../../../include_lib/driver/device/key/rdec_key.h" />
+		<Unit filename="../../../../../include_lib/driver/device/key/slidekey.h" />
+		<Unit filename="../../../../../include_lib/driver/device/key/tent600_key.h" />
+		<Unit filename="../../../../../include_lib/driver/device/key/touch_key.h" />
+		<Unit filename="../../../../../include_lib/driver/device/sdio/sdmmc.h" />
+		<Unit filename="../../../../../include_lib/driver/device/spiflash.h" />
+		<Unit filename="../../../../../include_lib/driver/device/uart.h" />
+		<Unit filename="../../../../../include_lib/driver/device/video/camera.h" />
+		<Unit filename="../../../../../include_lib/driver/device/video/fb.h" />
+		<Unit filename="../../../../../include_lib/driver/device/video/video.h" />
+		<Unit filename="../../../../../include_lib/driver/device/video/video_ioctl.h" />
+		<Unit filename="../../../../../include_lib/driver/version.z.S" />
+		<Unit filename="../../../../../include_lib/media/audio_eff_default_parm.h" />
+		<Unit filename="../../../../../include_lib/media/drc/audio_drc.h" />
+		<Unit filename="../../../../../include_lib/media/drc/drc_api.h" />
+		<Unit filename="../../../../../include_lib/media/drc/sw_drc.h" />
+		<Unit filename="../../../../../include_lib/media/effects_adj.h" />
+		<Unit filename="../../../../../include_lib/media/eq/DynamicEQ_Detection_api.h" />
+		<Unit filename="../../../../../include_lib/media/eq/DynamicEQ_api.h" />
+		<Unit filename="../../../../../include_lib/media/eq/audio_eq.h" />
+		<Unit filename="../../../../../include_lib/media/eq/eq_config.h" />
+		<Unit filename="../../../../../include_lib/media/eq/eq_func_define.h" />
+		<Unit filename="../../../../../include_lib/media/version.z.S" />
+		<Unit filename="../../../../../include_lib/net/lwip_2_2_0/lwip/app/dhcp_srv/dhcp_srv.h" />
+		<Unit filename="../../../../../include_lib/net/lwip_2_2_0/lwip/port/lwip.h" />
+		<Unit filename="../../../../../include_lib/net/lwip_2_2_0/lwip/port/lwipopts.h" />
+		<Unit filename="../../../../../include_lib/net/lwip_2_2_0/lwip/src/include/lwip/netif.h" />
+		<Unit filename="../../../../../include_lib/net/server/ctp_server.h" />
+		<Unit filename="../../../../../include_lib/net/server/net_server.h" />
+		<Unit filename="../../../../../include_lib/net/server/rt_stream_pkg.h" />
+		<Unit filename="../../../../../include_lib/net/server/stream_core.h" />
+		<Unit filename="../../../../../include_lib/net/version.z.S" />
+		<Unit filename="../../../../../include_lib/net/wifi/wifi_connect.h" />
+		<Unit filename="../../../../../include_lib/net/wifi/wifi_def.h" />
+		<Unit filename="../../../../../include_lib/newlib/include/machine/types.h" />
+		<Unit filename="../../../../../include_lib/newlib/include/strings.h" />
+		<Unit filename="../../../../../include_lib/newlib/include/sys/_stdint.h" />
+		<Unit filename="../../../../../include_lib/newlib/include/sys/types.h" />
+		<Unit filename="../../../../../include_lib/newlib/include/sys/unistd.h" />
+		<Unit filename="../../../../../include_lib/newlib/include/unistd.h" />
+		<Unit filename="../../../../../include_lib/server/audio_dev.h" />
+		<Unit filename="../../../../../include_lib/server/audio_server.h" />
+		<Unit filename="../../../../../include_lib/server/usb_syn_api.h" />
+		<Unit filename="../../../../../include_lib/server/version.z.S" />
+		<Unit filename="../../../../../include_lib/server/video_dec_server.h" />
+		<Unit filename="../../../../../include_lib/server/video_server.h" />
+		<Unit filename="../../../../../include_lib/server/vpkg_server.h" />
+		<Unit filename="../../../../../include_lib/system/app_core.h" />
+		<Unit filename="../../../../../include_lib/system/app_msg.h" />
+		<Unit filename="../../../../../include_lib/system/bank_switch.h" />
+		<Unit filename="../../../../../include_lib/system/boot.h" />
+		<Unit filename="../../../../../include_lib/system/debug.h" />
+		<Unit filename="../../../../../include_lib/system/generic/ascii.h" />
+		<Unit filename="../../../../../include_lib/system/generic/atomic.h" />
+		<Unit filename="../../../../../include_lib/system/generic/circular_buf.h" />
+		<Unit filename="../../../../../include_lib/system/generic/cpu.h" />
+		<Unit filename="../../../../../include_lib/system/generic/debug_lite.h" />
+		<Unit filename="../../../../../include_lib/system/generic/errno-base.h" />
+		<Unit filename="../../../../../include_lib/system/generic/includes.h" />
+		<Unit filename="../../../../../include_lib/system/generic/ioctl.h" />
+		<Unit filename="../../../../../include_lib/system/generic/irq.h" />
+		<Unit filename="../../../../../include_lib/system/generic/jiffies.h" />
+		<Unit filename="../../../../../include_lib/system/generic/lbuf.h" />
+		<Unit filename="../../../../../include_lib/system/generic/lbuf_lite.h" />
+		<Unit filename="../../../../../include_lib/system/generic/list.h" />
+		<Unit filename="../../../../../include_lib/system/generic/log.h" />
+		<Unit filename="../../../../../include_lib/system/generic/printf.h" />
+		<Unit filename="../../../../../include_lib/system/generic/rect.h" />
+		<Unit filename="../../../../../include_lib/system/generic/typedef.h" />
+		<Unit filename="../../../../../include_lib/system/generic/version.h" />
+		<Unit filename="../../../../../include_lib/system/includes.h" />
+		<Unit filename="../../../../../include_lib/system/init.h" />
+		<Unit filename="../../../../../include_lib/system/malloc.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/FreeRTOS.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/FreeRTOSConfig.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/deprecated_definitions.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/event_groups.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/list.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/mpu_wrappers.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/pi32v2/portmacro.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/portable.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/projdefs.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/queue.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/semphr.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/task.h" />
+		<Unit filename="../../../../../include_lib/system/os/FreeRTOS/timers.h" />
+		<Unit filename="../../../../../include_lib/system/os/os_api.h" />
+		<Unit filename="../../../../../include_lib/system/os/os_cpu.h" />
+		<Unit filename="../../../../../include_lib/system/os/os_error.h" />
+		<Unit filename="../../../../../include_lib/system/os/os_type.h" />
+		<Unit filename="../../../../../include_lib/system/spinlock.h" />
+		<Unit filename="../../../../../include_lib/system/sys_time.h" />
+		<Unit filename="../../../../../include_lib/system/task.h" />
+		<Unit filename="../../../../../include_lib/system/timer.h" />
+		<Unit filename="../../../../../include_lib/system/version.z.S" />
+		<Unit filename="../../../../../include_lib/system/wait.h" />
+		<Unit filename="../../../../../include_lib/update/dual_bank_updata_api.h" />
+		<Unit filename="../../../../../include_lib/update/net_update.h" />
+		<Unit filename="../../../../../include_lib/update/uart_update.h" />
+		<Unit filename="../../../../../include_lib/update/update.h" />
+		<Unit filename="../../../../../include_lib/update/update_loader_download.h" />
+		<Unit filename="../../../../../include_lib/update/version.z.S" />
+		<Unit filename="../../../../../include_lib/utils/character_coding.h" />
+		<Unit filename="../../../../../include_lib/utils/event/event.h" />
+		<Unit filename="../../../../../include_lib/utils/event/key_event.h" />
+		<Unit filename="../../../../../include_lib/utils/fs/fs.h" />
+		<Unit filename="../../../../../include_lib/utils/fs/fs_file_name.h" />
+		<Unit filename="../../../../../include_lib/utils/fs/sdfile.h" />
+		<Unit filename="../../../../../include_lib/utils/qrcode/enc_qr_code.h" />
+		<Unit filename="../../../../../include_lib/utils/syscfg/syscfg_id.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/control.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/hw_math.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/img.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/layer.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/layout.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/lyrics.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/math.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/p.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/play_control.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/slider.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui.ld" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_animation.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_bar_chart.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_battery.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_browser.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_button.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_camera.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_circle.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_core.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_figure.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_file_attrs.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_grid.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_number.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_pic.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_player.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_progress.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_progress_multi.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_rotate.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_slider.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_slider_vert.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_text.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_time.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_watch.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/ui_wave.h" />
+		<Unit filename="../../../../../include_lib/utils/ui/ui/window.h" />
+		<Unit filename="../../../../../include_lib/utils/version.z.S" />
+		<Unit filename="../../../../../include_lib/utils/yuv_soft_scalling.h" />
+		<Unit filename="../../../../../include_lib/utils/yuv_to_rgb.h" />
+		<Unit filename="../../../../../lib/net/version.z.S" />
+		<Unit filename="../../../../../lib/server/version.z.S" />
+		<Unit filename="../../../../../lib/utils/version.z.S" />
+		<Unit filename="../../../../common/LLM/audio/audio_input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/ifly_aiui/ifly_aiui_demo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/ifly_aiui/ifly_aiui_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/ifly_aiui/ifly_model_parse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/platform/plat/alloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/platform/plat/platform.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/platform/plat/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aigw/auth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aigw/llm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/allocator.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/array_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/assert.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/atomics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/byte_buf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/byte_order.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/clock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/data_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/encoding.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/hash_table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/json.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/linked_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/math.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/string.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/aws/common/zero.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/infer_inner_chat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/infer_realtime_ws.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/dynreg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/iot_kv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/iot_mqtt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/iot_popen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/iot_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/log/iot_log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/log/iot_log_report.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/ota/iot_ota_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/ota/iot_ota_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/thingmodel/custom_topic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/thingmodel/device_delay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/thingmodel/event.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/thingmodel/gateway.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/thingmodel/iot_ntp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/thingmodel/iot_tm_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/thingmodel/property.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/thingmodel/service.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/thingmodel/shadow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot/thingmodel/webshell.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/iot_basic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/onesdk.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/onesdk_chat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/onesdk_iot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/onesdk_rt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/protocols/http.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/protocols/http_libs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/protocols/lws_http_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/protocols/lws_http_download.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/protocols/lws_http_upload.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/util/aes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/util/aes_decode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/util/aws_json.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/util/hmac_sha256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/util/md5.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/util/sha256.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/LLM/onesdk/src/util/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/audio_music/audio_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/audio_music/audio_eff_default_parm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/audio_music/effects_adj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/audio_music/eq_config_new.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/audio_music/music_decrypt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/audio_music/pcm_play_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/audio_music/usb_audio_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/c++/cpp_run_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/c++/cxx_runtime.cpp">
+			<Option compiler="pi32v2_r3_empty_compiler" use="1" buildCommand="$compiler $options -std=gnu++14 -fno-exceptions -fno-rtti $includes -c $file -o $object" />
+		</Unit>
+		<Unit filename="../../../../common/config/bt_profile_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/config/include/bt_profile_cfg.h" />
+		<Unit filename="../../../../common/config/log_config/app_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/config/log_config/lib_btctrler_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/config/log_config/lib_btstack_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/config/log_config/lib_driver_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/config/log_config/lib_system_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/config/log_config/lib_update_config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/config/user_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/debug/debug.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/debug/debug_user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/Devkitboard_test/key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/Devkitboard_test/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/Devkitboard_test/mic_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/Devkitboard_test/mp3_play.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/Devkitboard_test/ui_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/Devkitboard_test/wifi_music.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/bluetooth/edr/bt_music/bt_decode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/bluetooth/edr/bt_music/bt_emitter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/bluetooth/edr/bt_music/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/storage/sd_fs/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/storage/sd_fs/main1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/video/image/avi/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/video/image/enc_qr_code/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/video/image/gif/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/video/image/jpeg/big_jpg_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/wifi/low_power/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/wifi/raw_txrx/kcp_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/wifi/raw_txrx/raw_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/example/wifi/wifi_music/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/iic/iic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/iic/software_iic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/include/bt_common.h" />
+		<Unit filename="../../../../common/jl_math/flfft_core_pi32v2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/jl_math/jl_fft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/jl_math/jl_math.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/jl_math/kiss_fft.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/jl_math/nn_function_vec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/adkey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/adkey_rtcvdd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/ctmu_touch_key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/iokey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/irkey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/key_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/matrix_keyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/rdec_key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/slidekey.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/tent600_key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/touch_key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/key/uart_key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/net/assign_macaddr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/net/config_network.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/net/config_network.h" />
+		<Unit filename="../../../../common/net/iperf_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/net/platform_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/net/testbox/client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/net/testbox/fsm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/net/testbox/wbcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/net/voiceprint_cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/net/wifi_conf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/system/device_mount.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/system/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/system/system_reset_reason.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/system/version.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/ui/font/fontinit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/ui/include/GUI_GIF_Private.h" />
+		<Unit filename="../../../../common/ui/include/lcd_config.h" />
+		<Unit filename="../../../../common/ui/include/lcd_data_driver.h" />
+		<Unit filename="../../../../common/ui/include/lcd_drive.h" />
+		<Unit filename="../../../../common/ui/include/res_config.h" />
+		<Unit filename="../../../../common/ui/include/ui_action_video.h" />
+		<Unit filename="../../../../common/ui/include/ui_api.h" />
+		<Unit filename="../../../../common/ui/lcd/lcd_ui_api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/ui/lcd_driver/lcd_data_driver.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/ui/lcd_driver/lcd_drive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/ui/lcd_driver/lcd_ili9488.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/ui/touch_panel/ft6236.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/ui/ui_action_video.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/ui/ui_driver/interface/ui_platform.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../common/update/update.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../demo_DevKitBoard/spp_trans_data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../ai_audio_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../app_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../avi_replay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../hello_realtime_voice.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../include/app_config.h" />
+		<Unit filename="../../include/bt_emitter.h" />
+		<Unit filename="../../include/demo_config.h" />
+		<Unit filename="../../include/ename.h" />
+		<Unit filename="../../include/get_yuv_data.h" />
+		<Unit filename="../../include/hello_realtime_voice.h" />
+		<Unit filename="../../include/simple_avi_unpkg.h" />
+		<Unit filename="../../include/storage_device.h" />
+		<Unit filename="../../logo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../simple_avi_unpkg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../spark_asr_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../spark_llm_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../spark_tts_test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../video_rt_usr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../wifi_demo_task.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="board.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project output_language="" />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

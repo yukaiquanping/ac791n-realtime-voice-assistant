@@ -1,0 +1,289 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 73,
+      "sha256": "4e67f6a5bcc43c85908ac7c3f79a8bd691c4b4b506e3985c1dba21a942319cba"
+    },
+    {
+      "path": "apply_overlay.py",
+      "bytes": 1035,
+      "sha256": "546cf6b6798015cfe8db778e30ff53bc1db67007b06fd8272fb73b30c3f19649"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 11558,
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+    },
+    {
+      "path": "overlay/apps/common/audio_music/pcm_play_api.c",
+      "bytes": 9818,
+      "sha256": "2ce33556ebd4e6b4b2c16e7f56f3f316eb799321191fc14d98d34ba2ad64ca7c"
+    },
+    {
+      "path": "overlay/apps/common/config/user_cfg.c",
+      "bytes": 21649,
+      "sha256": "2f182d7ea512596c542f5b8c1b27a3dc391076b1e2d969f984eb122a25f7dda7"
+    },
+    {
+      "path": "overlay/apps/common/example/bluetooth/edr/bt_music/main.c",
+      "bytes": 43027,
+      "sha256": "2442c9143b582c160bc4b5714b32d36353697f862117b87d2356d5c22177aa03"
+    },
+    {
+      "path": "overlay/apps/common/example/Devkitboard_test/main.c",
+      "bytes": 2437,
+      "sha256": "649738f73d488a5d127d0f5cf47fc2d06fe27acb0152a9c43b9727b67300d66c"
+    },
+    {
+      "path": "overlay/apps/common/example/Devkitboard_test/mp3_play.c",
+      "bytes": 5761,
+      "sha256": "318a25e9ba5ba811101a0b03106517d595a4e3895cf28a317965c51838e8eb30"
+    },
+    {
+      "path": "overlay/apps/common/example/Devkitboard_test/ui_main.c",
+      "bytes": 38461,
+      "sha256": "2a701a199ae06e844668f1973d9873ab2b45a2c9722481d3c3d14d0789041ae7"
+    },
+    {
+      "path": "overlay/apps/common/example/Devkitboard_test/wifi_music.c",
+      "bytes": 14211,
+      "sha256": "3b06af96333daada909eb310956b51ed23198189c96971d7e85b60a4bff8e570"
+    },
+    {
+      "path": "overlay/apps/common/LLM/audio/audio_input.c",
+      "bytes": 22453,
+      "sha256": "7dd634e18902add9ff24182393c0fc3219e14309cd289259f8a7f15b2ea55890"
+    },
+    {
+      "path": "overlay/apps/common/LLM/audio/audio_input.h",
+      "bytes": 1665,
+      "sha256": "e26e8d5d7b75c5060a33f81e2738254073893e8431783b77694d1232660cda7f"
+    },
+    {
+      "path": "overlay/apps/common/LLM/onesdk/include/infer_realtime_ws.h",
+      "bytes": 8021,
+      "sha256": "3c8a4561656397857a5684e06146d8f0f6c33ae3f1f08743a32b33a6ab423422"
+    },
+    {
+      "path": "overlay/apps/common/LLM/onesdk/include/onesdk.h",
+      "bytes": 6967,
+      "sha256": "5e509c4a51310cbe4f66b16276076fa521b61d6a27a0ca501bde78339b4f3c93"
+    },
+    {
+      "path": "overlay/apps/common/LLM/onesdk/src/aigw/llm.c",
+      "bytes": 7139,
+      "sha256": "de73f17135da5b516dae0e215fde22f6f9ed6baf41f9d88113d13b7b12214985"
+    },
+    {
+      "path": "overlay/apps/common/LLM/onesdk/src/infer_realtime_ws.c",
+      "bytes": 30552,
+      "sha256": "6c3b0c99986eb5f62df87f173bfe6906547dacd601fe891b5746ca18e1e31859"
+    },
+    {
+      "path": "overlay/apps/common/LLM/onesdk/src/iot/dynreg.c",
+      "bytes": 9804,
+      "sha256": "186006f5dc65cee2446aea2a0346c3ec7f4aea4f7456039e267ced6a2fb3af14"
+    },
+    {
+      "path": "overlay/apps/common/LLM/onesdk/src/onesdk.c",
+      "bytes": 7298,
+      "sha256": "04528456c167000ac21227230423dc6ac6392cc8121336d60a270869d2b7ce14"
+    },
+    {
+      "path": "overlay/apps/common/LLM/onesdk/src/onesdk_rt.c",
+      "bytes": 10611,
+      "sha256": "7ff3364731dd4f940484dee48cfe9a15ea1d94bb4b120ea25cd3363c65b26eba"
+    },
+    {
+      "path": "overlay/apps/common/LLM/onesdk/src/protocols/lws_http_client.c",
+      "bytes": 38193,
+      "sha256": "a7b7343032b7a336cd2c97716ef41766216b4257c60c9d0411ebe87b1843d0c9"
+    },
+    {
+      "path": "overlay/apps/common/ui/ui_driver/interface/ui_platform.c",
+      "bytes": 151749,
+      "sha256": "a5ecee70a55313ba2524525db1786081d2028792f142030dd737da58f29b5ae2"
+    },
+    {
+      "path": "overlay/apps/demo/demo_DevKitBoard/board/wl82/AC791N_DEMO_DEMO_DEVKITBOARD.cbp",
+      "bytes": 232236,
+      "sha256": "52fb4a7fd2075dc148760f47f7c8fe1ee64d963b76e8ff8897a37e639d9acfeb"
+    },
+    {
+      "path": "overlay/apps/demo/demo_edr/bt_decode.c",
+      "bytes": 27966,
+      "sha256": "fec1a4d7afd5ad2b3bcde9c18ace8f50758c6b92cbebd2475ed5e31bfc1bcf6b"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/ai_audio_test.c",
+      "bytes": 18994,
+      "sha256": "c4b7115e7c00925a72f8e8757ed457f3056fe6a4eab5ea3880d5d7bad78de3d4"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/app_main.c",
+      "bytes": 8971,
+      "sha256": "f94309d66481a0b449ab9b8c4211a90f66177e66d96017cbe047b4d1db920dd9"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/avi_replay.c",
+      "bytes": 25037,
+      "sha256": "6bbcaa2a91140504d5c2e54f624c8eab0fc427cfa66cd5ea07ced8f66c06e8bc"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/board/wl82/AC791N_DEMO_DEMO_HELLO.cbp",
+      "bytes": 70825,
+      "sha256": "d4c2c3f393e9060548751d948f09b69e845559ef1f0a54c906c445e30e07845b"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/board/wl82/board.c",
+      "bytes": 16973,
+      "sha256": "390aca56a85853ffcafca31539698b318464210d3faf34a5a398587ec0c34b63"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/hello_realtime_voice.c",
+      "bytes": 16477,
+      "sha256": "98c54fda42aeac9b25557ea53bdde243b26e93b2f5208653820bc040e0a90472"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/include/app_config.h",
+      "bytes": 14251,
+      "sha256": "22b6aef9ec96a89f4ea5332bf0b125e3dbc862a16ddc9ab5d41ffc9ab4f17932"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/include/bt_emitter.h",
+      "bytes": 598,
+      "sha256": "e30bb86527c33bf9942ada4c2191fc0e353486c8a4d6585aff6400f317b6f277"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/include/demo_config.h",
+      "bytes": 4994,
+      "sha256": "75476e4c9bf4b84994d5d262c6b1fc352ab9f64024eb7a5a9317e9dfab89fc4e"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/include/ename.h",
+      "bytes": 9209,
+      "sha256": "9756e8828fc9a6374bac46a2b44f98436688a2bc4b69a285a9cec9233ad81e35"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/include/get_yuv_data.h",
+      "bytes": 571,
+      "sha256": "e2fb25cdc973cbfbfdda99ea81001615e7a3abce5a615eccfbd1ba3cf5430c75"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/include/hello_realtime_voice.h",
+      "bytes": 584,
+      "sha256": "3df6950e4f4bcb53a11d2ae83f26306188cbecd00e40922e90e6ad768570b71e"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/include/simple_avi_unpkg.h",
+      "bytes": 7566,
+      "sha256": "f7898b970fcf602b08025814af33964fd4a66b99a36e736d0381e95d78cd3ae1"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/include/spi_video.h",
+      "bytes": 5501,
+      "sha256": "e63d7d299365b8cf047f85402f6c49d6832bb22a400ce5f627cd9daecd4e401b"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/include/storage_device.h",
+      "bytes": 336,
+      "sha256": "70a8d04c8f1dffcf104a62b99425392937c5201fc2f7161567eeb8057a059c4d"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/logo.c.gz",
+      "bytes": 263589,
+      "sha256": "800b2fe0c74a98a784bef57bf205cff5c1ca752ce99efefab840148bed07c74c"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/simple_avi_unpkg.c",
+      "bytes": 40242,
+      "sha256": "1c33a76f5f6072dfc89da3af5590f520d21c5d6ac79bf4872d0665c776d567d8"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/spark_asr_test.c",
+      "bytes": 12456,
+      "sha256": "645ad85eeb0b40feb580d9dc792b6d4be1e5687b62dd5c9d84c157a45fd7b527"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/spark_llm_test.c",
+      "bytes": 8653,
+      "sha256": "3943f8a22f5c6e666ef4579e257560e2ba71eb8f39b6e188667b0bb84399b6a0"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/spark_tts_test.c",
+      "bytes": 13583,
+      "sha256": "921b04345719c77871ac20eb872370d4e557ad418e7fe96e66ed7fe8d664e59d"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/video_rt_usr.c",
+      "bytes": 1964,
+      "sha256": "73e04cb6652ff7b9bc9e9348b3f5dfb3745fbd81c11171398b8eafc9dc728fc9"
+    },
+    {
+      "path": "overlay/apps/demo/demo_hello/wifi_demo_task.c",
+      "bytes": 26180,
+      "sha256": "bd8639a97a28b4856f41c79443b344e7ffef6b89ce50727fea0c895b5aab49f1"
+    },
+    {
+      "path": "overlay/cpu/wl82/tools/download.c",
+      "bytes": 13081,
+      "sha256": "af8da6d86f61ad4762a225f59511c50cf8dbefabb3aa816946ded3c1bcdda29b"
+    },
+    {
+      "path": "overlay/cpu/wl82/tools/isd_config_rule.c",
+      "bytes": 18115,
+      "sha256": "5c68088c508682abe200fc68f8b55a16db59773fe925c8f5c8893521ada4cf10"
+    },
+    {
+      "path": "overlay/cpu/wl82/tools/ui_res/JL.sty",
+      "bytes": 12144,
+      "sha256": "e8eec65ecc6b8b7253b8c38016987ead1b26212a1e355bf219902525dcbd4ae3"
+    },
+    {
+      "path": "overlay/cpu/wl82/tools/ui_res/menu.res",
+      "bytes": 224872,
+      "sha256": "a33df4cf71d319af75a29356452c3570f2011ac427f072dc39f33e10daef5b6a"
+    },
+    {
+      "path": "overlay/cpu/wl82/tools/ui_res/str.res",
+      "bytes": 1760,
+      "sha256": "2a65f6563aa4abe4ac9e46c4799b893dfc44fc9d2f2840ef3eb8482b811708ea"
+    },
+    {
+      "path": "overlay/include_lib/utils/ui/ui/ui_core.h",
+      "bytes": 13509,
+      "sha256": "e15f9a3a39b740938c7ad9456b7d42ebe08766b57db1984e550776535ab736c0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4841,
+      "sha256": "c02d21647035b72f245684a7223a6ae744987dc6991ca8454b9c29c9e4bfd81b"
+    },
+    {
+      "path": "ui_project/config/hello/start.png",
+      "bytes": 5557,
+      "sha256": "8d87bd06d4cd4b86d26fcdc0e164f0f2e7c56a4e3eb9235295ad337e12a3efd6"
+    },
+    {
+      "path": "ui_project/dial.json",
+      "bytes": 283129,
+      "sha256": "e1937e97ed582086766bcbd30db7c36ba2cd412449c0d504648e6a7d12e554a1"
+    },
+    {
+      "path": "ui_project/preview.png",
+      "bytes": 41787,
+      "sha256": "fd3d5955df76fd6d8fae6a4bcea9da80e78442dc84ee1858bffac2a95232055b"
+    },
+    {
+      "path": "ui_project/theme-preview.png",
+      "bytes": 20408,
+      "sha256": "d0230ae1a35e504171de8e8c8118338084266a3931bfc0b76be23e4a6bca4018"
+    },
+    {
+      "path": "UPSTREAM.md",
+      "bytes": 617,
+      "sha256": "d271653e9d671c29be9284f8f1f2a988322ba29ee1f08a36e983b93245582a36"
+    }
+  ]
+}
