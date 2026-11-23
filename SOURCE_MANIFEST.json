@@ -6,49 +6,49 @@
       "sha256": "4e67f6a5bcc43c85908ac7c3f79a8bd691c4b4b506e3985c1dba21a942319cba"
     },
     {
-      "path": "apply_overlay.py",
-      "bytes": 1035,
-      "sha256": "546cf6b6798015cfe8db778e30ff53bc1db67007b06fd8272fb73b30c3f19649"
-    },
-    {
       "path": "LICENSE",
       "bytes": 11558,
       "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
     },
     {
-      "path": "overlay/apps/common/audio_music/pcm_play_api.c",
-      "bytes": 9818,
-      "sha256": "2ce33556ebd4e6b4b2c16e7f56f3f316eb799321191fc14d98d34ba2ad64ca7c"
+      "path": "README.md",
+      "bytes": 9136,
+      "sha256": "d6988c841e6a70e663aa771cbfc4877114cfca54d5c7fc7c6597991271a3faea"
     },
     {
-      "path": "overlay/apps/common/config/user_cfg.c",
-      "bytes": 21649,
-      "sha256": "2f182d7ea512596c542f5b8c1b27a3dc391076b1e2d969f984eb122a25f7dda7"
+      "path": "UPSTREAM.md",
+      "bytes": 617,
+      "sha256": "d271653e9d671c29be9284f8f1f2a988322ba29ee1f08a36e983b93245582a36"
     },
     {
-      "path": "overlay/apps/common/example/bluetooth/edr/bt_music/main.c",
-      "bytes": 43027,
-      "sha256": "2442c9143b582c160bc4b5714b32d36353697f862117b87d2356d5c22177aa03"
+      "path": "apply_overlay.py",
+      "bytes": 1035,
+      "sha256": "546cf6b6798015cfe8db778e30ff53bc1db67007b06fd8272fb73b30c3f19649"
     },
     {
-      "path": "overlay/apps/common/example/Devkitboard_test/main.c",
-      "bytes": 2437,
-      "sha256": "649738f73d488a5d127d0f5cf47fc2d06fe27acb0152a9c43b9727b67300d66c"
+      "path": "docs/media/ac791n-demo.mp4",
+      "bytes": 1254983,
+      "sha256": "0a6a21d63ad337ad78c802eef6975baa1ab287f7898c8e51d9dd62b7435c4d53"
     },
     {
-      "path": "overlay/apps/common/example/Devkitboard_test/mp3_play.c",
-      "bytes": 5761,
-      "sha256": "318a25e9ba5ba811101a0b03106517d595a4e3895cf28a317965c51838e8eb30"
+      "path": "docs/media/demo-listening.jpg",
+      "bytes": 66860,
+      "sha256": "ce43b0cce73f05cf315414305a07f86c015378d63e9e1e2ac2f59c6a9b2c7c69"
     },
     {
-      "path": "overlay/apps/common/example/Devkitboard_test/ui_main.c",
-      "bytes": 38461,
-      "sha256": "2a701a199ae06e844668f1973d9873ab2b45a2c9722481d3c3d14d0789041ae7"
+      "path": "docs/media/demo-next-turn.jpg",
+      "bytes": 70923,
+      "sha256": "2eac576bdbb3a19fa2f14d0051ea35125677dbdfda554e65fcec120ebd544e84"
     },
     {
-      "path": "overlay/apps/common/example/Devkitboard_test/wifi_music.c",
-      "bytes": 14211,
-      "sha256": "3b06af96333daada909eb310956b51ed23198189c96971d7e85b60a4bff8e570"
+      "path": "docs/media/demo-reply.jpg",
+      "bytes": 71988,
+      "sha256": "627f0c686464f350ca504def34f4ec7f12507cc1ea9b9e12ca4582144c80c9a3"
+    },
+    {
+      "path": "docs/media/voice-ui-preview.png",
+      "bytes": 41787,
+      "sha256": "fd3d5955df76fd6d8fae6a4bcea9da80e78442dc84ee1858bffac2a95232055b"
     },
     {
       "path": "overlay/apps/common/LLM/audio/audio_input.c",
@@ -99,6 +99,41 @@
       "path": "overlay/apps/common/LLM/onesdk/src/protocols/lws_http_client.c",
       "bytes": 38193,
       "sha256": "a7b7343032b7a336cd2c97716ef41766216b4257c60c9d0411ebe87b1843d0c9"
+    },
+    {
+      "path": "overlay/apps/common/audio_music/pcm_play_api.c",
+      "bytes": 9818,
+      "sha256": "2ce33556ebd4e6b4b2c16e7f56f3f316eb799321191fc14d98d34ba2ad64ca7c"
+    },
+    {
+      "path": "overlay/apps/common/config/user_cfg.c",
+      "bytes": 21649,
+      "sha256": "2f182d7ea512596c542f5b8c1b27a3dc391076b1e2d969f984eb122a25f7dda7"
+    },
+    {
+      "path": "overlay/apps/common/example/Devkitboard_test/main.c",
+      "bytes": 2437,
+      "sha256": "649738f73d488a5d127d0f5cf47fc2d06fe27acb0152a9c43b9727b67300d66c"
+    },
+    {
+      "path": "overlay/apps/common/example/Devkitboard_test/mp3_play.c",
+      "bytes": 5761,
+      "sha256": "318a25e9ba5ba811101a0b03106517d595a4e3895cf28a317965c51838e8eb30"
+    },
+    {
+      "path": "overlay/apps/common/example/Devkitboard_test/ui_main.c",
+      "bytes": 38461,
+      "sha256": "2a701a199ae06e844668f1973d9873ab2b45a2c9722481d3c3d14d0789041ae7"
+    },
+    {
+      "path": "overlay/apps/common/example/Devkitboard_test/wifi_music.c",
+      "bytes": 14211,
+      "sha256": "3b06af96333daada909eb310956b51ed23198189c96971d7e85b60a4bff8e570"
+    },
+    {
+      "path": "overlay/apps/common/example/bluetooth/edr/bt_music/main.c",
+      "bytes": 43027,
+      "sha256": "2442c9143b582c160bc4b5714b32d36353697f862117b87d2356d5c22177aa03"
     },
     {
       "path": "overlay/apps/common/ui/ui_driver/interface/ui_platform.c",
@@ -256,11 +291,6 @@
       "sha256": "e15f9a3a39b740938c7ad9456b7d42ebe08766b57db1984e550776535ab736c0"
     },
     {
-      "path": "README.md",
-      "bytes": 4841,
-      "sha256": "c02d21647035b72f245684a7223a6ae744987dc6991ca8454b9c29c9e4bfd81b"
-    },
-    {
       "path": "ui_project/config/hello/start.png",
       "bytes": 5557,
       "sha256": "8d87bd06d4cd4b86d26fcdc0e164f0f2e7c56a4e3eb9235295ad337e12a3efd6"
@@ -279,11 +309,7 @@
       "path": "ui_project/theme-preview.png",
       "bytes": 20408,
       "sha256": "d0230ae1a35e504171de8e8c8118338084266a3931bfc0b76be23e4a6bca4018"
-    },
-    {
-      "path": "UPSTREAM.md",
-      "bytes": 617,
-      "sha256": "d271653e9d671c29be9284f8f1f2a988322ba29ee1f08a36e983b93245582a36"
     }
-  ]
+  ],
+  "documentation_updated": "2026-11-23"
 }
